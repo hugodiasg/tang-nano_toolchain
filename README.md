@@ -10,3 +10,6 @@ To run a project, create a directory inside `/examples` with the `.v` and `.cst`
 - to run synthesis:  `../../util/synth.sh`
 - to place and route: `../../util/place_route.sh`
 - to flash to tangnano: `../../util/flash.sh`
+
+# Note
+If you will use some `input pin`, besides defining (in `.cst`) for example: `IO_LOC "in" 38`, you will need to add this line: `IO_PORT "in" IO_TYPE=LVCMOS33 PULL_MODE=NONE`.
