@@ -1,0 +1,255 @@
+{
+  "creator": "Next Generation Place and Route (Version nextpnr-0.7-56-ge9e7dce2)",
+  "modules": {
+    "top": {
+      "settings": {
+        "route": "00000000000000000000000000000001",
+        "router/tmg_ripup": "0 ",
+        "router1/useEstimate": "1 ",
+        "router1/fullCleanupReroute": "1 ",
+        "router1/cleanupReroute": "1 ",
+        "router1/maxIterCnt": "200",
+        "place": "00000000000000000000000000000001",
+        "placer1/startTemp": "1.000000",
+        "placer1/minBelsForGridPick": "64",
+        "placer1/netShareWeight": "0.000000",
+        "placer1/constraintWeight": "10.000000",
+        "placerHeap/cellPlacementTimeout": "8",
+        "placerHeap/netShareWeight": "0.000000",
+        "placerHeap/parallelRefine": "0 ",
+        "pack": "00000000000000000000000000000001",
+        "synth": "00000000000000000000000000000001",
+        "placerHeap/timingWeight": "10 ",
+        "placerHeap/criticalityExponent": "2",
+        "placerHeap/beta": "0.900000",
+        "placerHeap/alpha": "0.100000",
+        "seed": "01010011010110001001011110010011",
+        "arch.type": " ",
+        "arch.name": "ARCHNAME",
+        "router": "router1",
+        "placer": "heap",
+        "auto_freq": "00000000000000000000000000000000",
+        "slack_redist_iter": "00000000000000000000000000000000",
+        "timing_driven": "00000000000000000000000000000001",
+        "target_freq": "12000000.000000",
+        "cst.filename": "buffer.cst",
+        "packer.partno": "GW1N-LV1QN48C6/I5",
+        "packer.chipdb": "GW1N-1",
+        "packer.arch": "himbaechel/gowin"
+      },
+      "attributes": {
+        "top": "00000000000000000000000000000001",
+        "src": "buffer.v:1.1-13.10"
+      },
+      "ports": {
+        "out": {
+          "direction": "output",
+          "bits": [ 2174 ]
+        },
+        "led": {
+          "direction": "output",
+          "bits": [ 2173 ]
+        },
+        "in": {
+          "direction": "input",
+          "bits": [ 2172 ]
+        }
+      },
+      "cells": {
+        "GSR": {
+          "hide_name": 0,
+          "type": "GSR",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "X0Y0/GSR"
+          },
+          "port_directions": {
+            "GSRI": "input"
+          },
+          "connections": {
+            "GSRI": [ 2196 ]
+          }
+        },
+        "$PACKER_VCC_DRV": {
+          "hide_name": 1,
+          "type": "GOWIN_VCC",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "X0Y0/VCC"
+          },
+          "port_directions": {
+            "V": "output"
+          },
+          "connections": {
+            "V": [ 2196 ]
+          }
+        },
+        "$PACKER_GND_DRV": {
+          "hide_name": 1,
+          "type": "GOWIN_GND",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000010",
+            "NEXTPNR_BEL": "X0Y0/GND"
+          },
+          "port_directions": {
+            "G": "output"
+          },
+          "connections": {
+            "G": [ 2197 ]
+          }
+        },
+        "out_OBUF_O": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+            "NET_I": "NET",
+            "NET_O": "NET"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000101",
+            "NEXTPNR_BEL": "X16Y0/IOBA",
+            "src": "buffer.v:4.17-4.20",
+            "keep": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "I": "input"
+          },
+          "connections": {
+            "O": [ 2174 ],
+            "I": [ 2178 ]
+          }
+        },
+        "led_OBUF_O_I_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "01"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "X14Y3/LUT2",
+            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:135.23-136.15",
+            "module_not_derived": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "I0": "input",
+            "F": "output"
+          },
+          "connections": {
+            "I0": [ 2178 ],
+            "F": [ 2181 ]
+          }
+        },
+        "led_OBUF_O": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+            "NET_I": "NET",
+            "NET_O": "NET"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000101",
+            "NEXTPNR_BEL": "X6Y10/IOBA",
+            "src": "buffer.v:5.17-5.20",
+            "keep": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "I": "input"
+          },
+          "connections": {
+            "O": [ 2173 ],
+            "I": [ 2181 ]
+          }
+        },
+        "in_IBUF_I": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+            "NET_I": "NET",
+            "NET_O": "NET"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000101",
+            "NEXTPNR_BEL": "X16Y0/IOBB",
+            "src": "buffer.v:3.11-3.13",
+            "&IO_TYPE=LVCMOS33": "00000000000000000000000000000001",
+            "&PULL_MODE=DOWN": "00000000000000000000000000000001",
+            "keep": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "I": "input"
+          },
+          "connections": {
+            "O": [ 2178 ],
+            "I": [ 2172 ]
+          }
+        }
+      },
+      "netnames": {
+        "$PACKER_GND": {
+          "hide_name": 1,
+          "bits": [ 2197 ] ,
+          "attributes": {
+            "ROUTING": " "
+          }
+        },
+        "$PACKER_VCC": {
+          "hide_name": 1,
+          "bits": [ 2196 ] ,
+          "attributes": {
+            "ROUTING": "X0Y0/VCC;;1;X0Y0/N200;X0Y0/N200/VCC;1;X0Y0/C4;X0Y0/C4/S201;1"
+          }
+        },
+        "out": {
+          "hide_name": 0,
+          "bits": [ 2174 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "buffer.v:4.17-4.20"
+          }
+        },
+        "led": {
+          "hide_name": 0,
+          "bits": [ 2173 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "buffer.v:5.17-5.20"
+          }
+        },
+        "led_OBUF_O_I": {
+          "hide_name": 0,
+          "bits": [ 2181 ] ,
+          "attributes": {
+            "ROUTING": "X14Y3/F2;;1;X14Y3/SN10;X14Y3/SN10/F2;1;X14Y4/S210;X14Y4/S210/S111;1;X14Y6/S210;X14Y6/S210/S212;1;X14Y8/W210;X14Y8/W210/S212;1;X12Y8/W810;X12Y8/W810/W212;1;X8Y8/S220;X8Y8/S220/W814;1;X8Y10/W220;X8Y10/W220/S222;1;X6Y10/X01;X6Y10/X01/W222;1;X6Y10/A0;X6Y10/A0/X01;1"
+          }
+        },
+        "in_IBUF_I_O": {
+          "hide_name": 0,
+          "bits": [ 2178 ] ,
+          "attributes": {
+            "ROUTING": "X16Y0/X03;X16Y0/X03/Q6;1;X16Y0/A0;X16Y0/A0/X03;1;X16Y0/Q6;;1;X16Y0/S260;X16Y0/S260/Q6;1;X16Y2/W260;X16Y2/W260/S262;1;X14Y2/S260;X14Y2/S260/W262;1;X14Y3/X05;X14Y3/X05/S261;1;X14Y3/A2;X14Y3/A2/X05;1",
+            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "in": {
+          "hide_name": 0,
+          "bits": [ 2172 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "buffer.v:3.11-3.13"
+          }
+        }
+      }
+    }
+  }
+}

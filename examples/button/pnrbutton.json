@@ -1,0 +1,253 @@
+{
+  "creator": "Next Generation Place and Route (Version nextpnr-0.7-56-ge9e7dce2)",
+  "modules": {
+    "top": {
+      "settings": {
+        "route": "00000000000000000000000000000001",
+        "router/tmg_ripup": "0 ",
+        "router1/useEstimate": "1 ",
+        "router1/fullCleanupReroute": "1 ",
+        "router1/cleanupReroute": "1 ",
+        "router1/maxIterCnt": "200",
+        "place": "00000000000000000000000000000001",
+        "placer1/startTemp": "1.000000",
+        "placer1/minBelsForGridPick": "64",
+        "placer1/netShareWeight": "0.000000",
+        "placer1/constraintWeight": "10.000000",
+        "placerHeap/cellPlacementTimeout": "8",
+        "placerHeap/netShareWeight": "0.000000",
+        "placerHeap/parallelRefine": "0 ",
+        "pack": "00000000000000000000000000000001",
+        "synth": "00000000000000000000000000000001",
+        "placerHeap/timingWeight": "10 ",
+        "placerHeap/criticalityExponent": "2",
+        "placerHeap/beta": "0.900000",
+        "placerHeap/alpha": "0.100000",
+        "seed": "01010011010110001001011110010011",
+        "arch.type": " ",
+        "arch.name": "ARCHNAME",
+        "router": "router1",
+        "placer": "heap",
+        "auto_freq": "00000000000000000000000000000000",
+        "slack_redist_iter": "00000000000000000000000000000000",
+        "timing_driven": "00000000000000000000000000000001",
+        "target_freq": "12000000.000000",
+        "cst.filename": "button.cst",
+        "packer.partno": "GW1N-LV1QN48C6/I5",
+        "packer.chipdb": "GW1N-1",
+        "packer.arch": "himbaechel/gowin"
+      },
+      "attributes": {
+        "top": "00000000000000000000000000000001",
+        "src": "button.v:1.1-11.10"
+      },
+      "ports": {
+        "out": {
+          "direction": "output",
+          "bits": [ 2174 ]
+        },
+        "led": {
+          "direction": "output",
+          "bits": [ 2173 ]
+        },
+        "b": {
+          "direction": "input",
+          "bits": [ 2172 ]
+        }
+      },
+      "cells": {
+        "GSR": {
+          "hide_name": 0,
+          "type": "GSR",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "X0Y0/GSR"
+          },
+          "port_directions": {
+            "GSRI": "input"
+          },
+          "connections": {
+            "GSRI": [ 2194 ]
+          }
+        },
+        "$PACKER_VCC_DRV": {
+          "hide_name": 1,
+          "type": "GOWIN_VCC",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "X0Y0/VCC"
+          },
+          "port_directions": {
+            "V": "output"
+          },
+          "connections": {
+            "V": [ 2194 ]
+          }
+        },
+        "$PACKER_GND_DRV": {
+          "hide_name": 1,
+          "type": "GOWIN_GND",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000010",
+            "NEXTPNR_BEL": "X0Y0/GND"
+          },
+          "port_directions": {
+            "G": "output"
+          },
+          "connections": {
+            "G": [ 2195 ]
+          }
+        },
+        "out_OBUF_O": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+            "NET_I": "NET",
+            "NET_O": "NET"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000101",
+            "NEXTPNR_BEL": "X2Y10/IOBA",
+            "src": "button.v:4.17-4.20",
+            "keep": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "I": "input"
+          },
+          "connections": {
+            "O": [ 2174 ],
+            "I": [ 2181 ]
+          }
+        },
+        "led_OBUF_O": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+            "NET_I": "NET",
+            "NET_O": "NET"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000101",
+            "NEXTPNR_BEL": "X6Y10/IOBA",
+            "src": "button.v:3.17-3.20",
+            "keep": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "I": "input"
+          },
+          "connections": {
+            "O": [ 2173 ],
+            "I": [ 2181 ]
+          }
+        },
+        "b_IBUF_I_O_LUT1_I0": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "01"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "X4Y9/LUT0",
+            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:135.23-136.15",
+            "module_not_derived": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "I0": "input",
+            "F": "output"
+          },
+          "connections": {
+            "I0": [ 2178 ],
+            "F": [ 2181 ]
+          }
+        },
+        "b_IBUF_I": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+            "NET_I": "NET",
+            "NET_O": "NET"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000101",
+            "NEXTPNR_BEL": "X5Y10/IOBB",
+            "src": "button.v:2.11-2.12",
+            "keep": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "I": "input"
+          },
+          "connections": {
+            "O": [ 2178 ],
+            "I": [ 2172 ]
+          }
+        }
+      },
+      "netnames": {
+        "$PACKER_GND": {
+          "hide_name": 1,
+          "bits": [ 2195 ] ,
+          "attributes": {
+            "ROUTING": " "
+          }
+        },
+        "$PACKER_VCC": {
+          "hide_name": 1,
+          "bits": [ 2194 ] ,
+          "attributes": {
+            "ROUTING": "X0Y0/VCC;;1;X0Y0/W240;X0Y0/W240/VCC;1;X0Y0/C4;X0Y0/C4/E241;1"
+          }
+        },
+        "out": {
+          "hide_name": 0,
+          "bits": [ 2174 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "button.v:4.17-4.20"
+          }
+        },
+        "led": {
+          "hide_name": 0,
+          "bits": [ 2173 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "button.v:3.17-3.20"
+          }
+        },
+        "led_OBUF_O_I": {
+          "hide_name": 0,
+          "bits": [ 2181 ] ,
+          "attributes": {
+            "ROUTING": "X4Y9/E200;X4Y9/E200/F0;1;X6Y9/S200;X6Y9/S200/E202;1;X6Y10/X03;X6Y10/X03/N202;1;X6Y10/A0;X6Y10/A0/X03;1;X4Y9/F0;;1;X4Y9/W200;X4Y9/W200/F0;1;X2Y9/S200;X2Y9/S200/W202;1;X2Y10/X01;X2Y10/X01/S201;1;X2Y10/A0;X2Y10/A0/X01;1"
+          }
+        },
+        "b_IBUF_I_O": {
+          "hide_name": 0,
+          "bits": [ 2178 ] ,
+          "attributes": {
+            "ROUTING": "X5Y10/Q6;;1;X5Y10/S260;X5Y10/S260/Q6;1;X5Y9/W260;X5Y9/W260/N262;1;X4Y9/X03;X4Y9/X03/W261;1;X4Y9/A0;X4Y9/A0/X03;1",
+            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "b": {
+          "hide_name": 0,
+          "bits": [ 2172 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "button.v:2.11-2.12"
+          }
+        }
+      }
+    }
+  }
+}

@@ -21,7 +21,7 @@
         }
       },
       "cells": {
-        "$specify$1302": {
+        "$specify$832": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -233,91 +233,6 @@
         }
       }
     },
-    "$paramod\\ALU\\ALU_MODE=s32'00000000000000000000000000000010": {
-      "attributes": {
-        "hdlname": "ALU",
-        "blackbox": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:879.1-962.10"
-      },
-      "parameter_default_values": {
-        "ALU_MODE": "00000000000000000000000000000010"
-      },
-      "ports": {
-        "SUM": {
-          "direction": "output",
-          "bits": [ 2 ]
-        },
-        "COUT": {
-          "direction": "output",
-          "bits": [ 3 ]
-        },
-        "I0": {
-          "direction": "input",
-          "bits": [ 4 ]
-        },
-        "I1": {
-          "direction": "input",
-          "bits": [ 5 ]
-        },
-        "I3": {
-          "direction": "input",
-          "bits": [ 6 ]
-        },
-        "CIN": {
-          "direction": "input",
-          "bits": [ 7 ]
-        }
-      },
-      "cells": {
-      },
-      "netnames": {
-        "CIN": {
-          "hide_name": 0,
-          "bits": [ 7 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:884.24-884.27"
-          }
-        },
-        "COUT": {
-          "hide_name": 0,
-          "bits": [ 3 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "I0": {
-          "hide_name": 0,
-          "bits": [ 4 ],
-          "attributes": {
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:881.7-881.9"
-          }
-        },
-        "I1": {
-          "hide_name": 0,
-          "bits": [ 5 ],
-          "attributes": {
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:882.7-882.9"
-          }
-        },
-        "I3": {
-          "hide_name": 0,
-          "bits": [ 6 ],
-          "attributes": {
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:883.7-883.9"
-          }
-        },
-        "SUM": {
-          "hide_name": 0,
-          "bits": [ 2 ],
-          "attributes": {
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:885.8-885.11"
-          }
-        }
-      }
-    },
     "ADC": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
@@ -334,6 +249,7 @@
     "ALU": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
         "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:879.1-962.10"
       },
       "parameter_default_values": {
@@ -1049,7 +965,7 @@
     "DFFC": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
-        "abc9_bypass": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
         "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:318.1-334.10"
       },
       "parameter_default_values": {
@@ -1110,7 +1026,7 @@
     "DFFCE": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
-        "abc9_bypass": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
         "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:337.1-354.10"
       },
       "parameter_default_values": {
@@ -1954,7 +1870,7 @@
     "DFFPE": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
-        "abc9_bypass": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
         "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:298.1-315.10"
       },
       "parameter_default_values": {
@@ -5802,6 +5718,7 @@
     "GND": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
         "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:549.1-551.10"
       },
       "ports": {
@@ -6486,7 +6403,7 @@
         }
       },
       "cells": {
-        "$specify$125": {
+        "$specify$120": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8106,7 +8023,7 @@
         }
       },
       "cells": {
-        "$specify$8": {
+        "$specify$3": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8157,8 +8074,9 @@
     },
     "LUT2": {
       "attributes": {
-        "abc9_lut": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
+        "abc9_lut": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
         "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:11.1-19.10"
       },
       "parameter_default_values": {
@@ -8179,38 +8097,7 @@
         }
       },
       "cells": {
-        "$specify$10": {
-          "hide_name": 1,
-          "type": "$specify2",
-          "parameters": {
-            "DST_WIDTH": "00000000000000000000000000000001",
-            "FULL": "0",
-            "SRC_DST_PEN": "0",
-            "SRC_DST_POL": "0",
-            "SRC_WIDTH": "00000000000000000000000000000001",
-            "T_FALL_MAX": "00000000000000000000001110000110",
-            "T_FALL_MIN": "00000000000000000000001110000110",
-            "T_FALL_TYP": "00000000000000000000001110000110",
-            "T_RISE_MAX": "00000000000000000000001000101011",
-            "T_RISE_MIN": "00000000000000000000001000101011",
-            "T_RISE_TYP": "00000000000000000000001000101011"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:15.3-15.26"
-          },
-          "port_directions": {
-            "DST": "input",
-            "EN": "input",
-            "SRC": "input"
-          },
-          "connections": {
-            "DST": [ 2 ],
-            "EN": [ "1" ],
-            "SRC": [ 4 ]
-          }
-        },
-        "$specify$9": {
+        "$specify$4": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8239,6 +8126,37 @@
             "DST": [ 2 ],
             "EN": [ "1" ],
             "SRC": [ 3 ]
+          }
+        },
+        "$specify$5": {
+          "hide_name": 1,
+          "type": "$specify2",
+          "parameters": {
+            "DST_WIDTH": "00000000000000000000000000000001",
+            "FULL": "0",
+            "SRC_DST_PEN": "0",
+            "SRC_DST_POL": "0",
+            "SRC_WIDTH": "00000000000000000000000000000001",
+            "T_FALL_MAX": "00000000000000000000001110000110",
+            "T_FALL_MIN": "00000000000000000000001110000110",
+            "T_FALL_TYP": "00000000000000000000001110000110",
+            "T_RISE_MAX": "00000000000000000000001000101011",
+            "T_RISE_MIN": "00000000000000000000001000101011",
+            "T_RISE_TYP": "00000000000000000000001000101011"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:15.3-15.26"
+          },
+          "port_directions": {
+            "DST": "input",
+            "EN": "input",
+            "SRC": "input"
+          },
+          "connections": {
+            "DST": [ 2 ],
+            "EN": [ "1" ],
+            "SRC": [ 4 ]
           }
         }
       },
@@ -8295,7 +8213,7 @@
         }
       },
       "cells": {
-        "$specify$11": {
+        "$specify$6": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8326,7 +8244,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$12": {
+        "$specify$7": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8357,7 +8275,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$13": {
+        "$specify$8": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8422,8 +8340,9 @@
     },
     "LUT4": {
       "attributes": {
-        "abc9_lut": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
+        "abc9_lut": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
         "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:35.1-47.10"
       },
       "parameter_default_values": {
@@ -8452,38 +8371,7 @@
         }
       },
       "cells": {
-        "$specify$14": {
-          "hide_name": 1,
-          "type": "$specify2",
-          "parameters": {
-            "DST_WIDTH": "00000000000000000000000000000001",
-            "FULL": "0",
-            "SRC_DST_PEN": "0",
-            "SRC_DST_POL": "0",
-            "SRC_WIDTH": "00000000000000000000000000000001",
-            "T_FALL_MAX": "00000000000000000000010111001110",
-            "T_FALL_MIN": "00000000000000000000010111001110",
-            "T_FALL_TYP": "00000000000000000000010111001110",
-            "T_RISE_MAX": "00000000000000000000010000011110",
-            "T_RISE_MIN": "00000000000000000000010000011110",
-            "T_RISE_TYP": "00000000000000000000010000011110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:38.3-38.28"
-          },
-          "port_directions": {
-            "DST": "input",
-            "EN": "input",
-            "SRC": "input"
-          },
-          "connections": {
-            "DST": [ 2 ],
-            "EN": [ "1" ],
-            "SRC": [ 3 ]
-          }
-        },
-        "$specify$15": {
+        "$specify$10": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8514,7 +8402,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$16": {
+        "$specify$11": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8545,7 +8433,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$17": {
+        "$specify$12": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8574,6 +8462,37 @@
             "DST": [ 2 ],
             "EN": [ "1" ],
             "SRC": [ 6 ]
+          }
+        },
+        "$specify$9": {
+          "hide_name": 1,
+          "type": "$specify2",
+          "parameters": {
+            "DST_WIDTH": "00000000000000000000000000000001",
+            "FULL": "0",
+            "SRC_DST_PEN": "0",
+            "SRC_DST_POL": "0",
+            "SRC_WIDTH": "00000000000000000000000000000001",
+            "T_FALL_MAX": "00000000000000000000010111001110",
+            "T_FALL_MIN": "00000000000000000000010111001110",
+            "T_FALL_TYP": "00000000000000000000010111001110",
+            "T_RISE_MAX": "00000000000000000000010000011110",
+            "T_RISE_MIN": "00000000000000000000010000011110",
+            "T_RISE_TYP": "00000000000000000000010000011110"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:38.3-38.28"
+          },
+          "port_directions": {
+            "DST": "input",
+            "EN": "input",
+            "SRC": "input"
+          },
+          "connections": {
+            "DST": [ 2 ],
+            "EN": [ "1" ],
+            "SRC": [ 3 ]
           }
         }
       },
@@ -11650,7 +11569,7 @@
         }
       },
       "cells": {
-        "$specify$44": {
+        "$specify$39": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -11681,7 +11600,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$45": {
+        "$specify$40": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -11712,7 +11631,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$46": {
+        "$specify$41": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -11778,6 +11697,7 @@
     "MUX2_LUT5": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
         "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:113.1-125.10"
       },
       "ports": {
@@ -11799,7 +11719,7 @@
         }
       },
       "cells": {
-        "$specify$47": {
+        "$specify$42": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -11830,7 +11750,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$48": {
+        "$specify$43": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -11861,7 +11781,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$49": {
+        "$specify$44": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -11949,7 +11869,7 @@
         }
       },
       "cells": {
-        "$specify$50": {
+        "$specify$45": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -11980,7 +11900,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$51": {
+        "$specify$46": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12011,7 +11931,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$52": {
+        "$specify$47": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12099,7 +12019,7 @@
         }
       },
       "cells": {
-        "$specify$53": {
+        "$specify$48": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12130,7 +12050,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$54": {
+        "$specify$49": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12161,7 +12081,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$55": {
+        "$specify$50": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12249,7 +12169,7 @@
         }
       },
       "cells": {
-        "$specify$56": {
+        "$specify$51": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12280,7 +12200,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$57": {
+        "$specify$52": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12311,7 +12231,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$58": {
+        "$specify$53": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -13227,7 +13147,7 @@
         }
       },
       "cells": {
-        "$specify$126": {
+        "$specify$121": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -15904,7 +15824,7 @@
         }
       },
       "cells": {
-        "$specify$150": {
+        "$specify$145": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -15935,7 +15855,7 @@
             "SRC": [ 8, 9, 10, 11 ]
           }
         },
-        "$specify$151": {
+        "$specify$146": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -15970,7 +15890,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$152": {
+        "$specify$147": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16005,7 +15925,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$153": {
+        "$specify$148": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16040,7 +15960,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$154": {
+        "$specify$149": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -16160,7 +16080,7 @@
         }
       },
       "cells": {
-        "$specify$155": {
+        "$specify$150": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -16191,7 +16111,7 @@
             "SRC": [ 10, 11, 12, 13 ]
           }
         },
-        "$specify$156": {
+        "$specify$151": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16226,7 +16146,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$157": {
+        "$specify$152": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16261,7 +16181,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$158": {
+        "$specify$153": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16296,7 +16216,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$159": {
+        "$specify$154": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -16418,7 +16338,7 @@
         }
       },
       "cells": {
-        "$specify$160": {
+        "$specify$155": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -16449,7 +16369,7 @@
             "SRC": [ 14, 15, 16, 17 ]
           }
         },
-        "$specify$161": {
+        "$specify$156": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16484,7 +16404,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$162": {
+        "$specify$157": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16519,7 +16439,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$163": {
+        "$specify$158": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16554,7 +16474,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$164": {
+        "$specify$159": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -17153,7 +17073,7 @@
         }
       },
       "cells": {
-        "$specify$165": {
+        "$specify$160": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -17190,7 +17110,7 @@
             "SRC": [ 100 ]
           }
         },
-        "$specify$166": {
+        "$specify$161": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17225,7 +17145,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$167": {
+        "$specify$162": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17260,7 +17180,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$168": {
+        "$specify$163": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17295,7 +17215,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$169": {
+        "$specify$164": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17330,7 +17250,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$170": {
+        "$specify$165": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17365,7 +17285,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$171": {
+        "$specify$166": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17400,7 +17320,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$172": {
+        "$specify$167": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17435,7 +17355,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$173": {
+        "$specify$168": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17470,7 +17390,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$174": {
+        "$specify$169": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17505,7 +17425,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$175": {
+        "$specify$170": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17540,7 +17460,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$176": {
+        "$specify$171": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17575,7 +17495,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$177": {
+        "$specify$172": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18076,7 +17996,7 @@
         }
       },
       "cells": {
-        "$specify$178": {
+        "$specify$173": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -18113,7 +18033,7 @@
             "SRC": [ 108 ]
           }
         },
-        "$specify$179": {
+        "$specify$174": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18148,7 +18068,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$180": {
+        "$specify$175": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18183,7 +18103,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$181": {
+        "$specify$176": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18218,7 +18138,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$182": {
+        "$specify$177": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18253,7 +18173,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$183": {
+        "$specify$178": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18288,7 +18208,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$184": {
+        "$specify$179": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18323,7 +18243,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$185": {
+        "$specify$180": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18358,7 +18278,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$186": {
+        "$specify$181": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18393,7 +18313,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$187": {
+        "$specify$182": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18428,7 +18348,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$188": {
+        "$specify$183": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18463,7 +18383,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$189": {
+        "$specify$184": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18498,7 +18418,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$190": {
+        "$specify$185": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -20433,6 +20353,7 @@
     "VCC": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
         "src": "/usr/local/bin/../share/yosys/gowin/cells_sim.v:545.1-547.10"
       },
       "ports": {
@@ -20487,7 +20408,7 @@
         }
       },
       "cells": {
-        "$specify$18": {
+        "$specify$13": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -20518,7 +20439,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$19": {
+        "$specify$14": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -20549,7 +20470,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$20": {
+        "$specify$15": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -20580,7 +20501,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$21": {
+        "$specify$16": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -20611,7 +20532,7 @@
             "SRC": [ 6 ]
           }
         },
-        "$specify$22": {
+        "$specify$17": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -20726,7 +20647,7 @@
         }
       },
       "cells": {
-        "$specify$23": {
+        "$specify$18": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -20757,7 +20678,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$24": {
+        "$specify$19": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -20788,7 +20709,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$25": {
+        "$specify$20": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -20819,7 +20740,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$26": {
+        "$specify$21": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -20850,7 +20771,7 @@
             "SRC": [ 6 ]
           }
         },
-        "$specify$27": {
+        "$specify$22": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -20881,7 +20802,7 @@
             "SRC": [ 7 ]
           }
         },
-        "$specify$28": {
+        "$specify$23": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21007,7 +20928,7 @@
         }
       },
       "cells": {
-        "$specify$29": {
+        "$specify$24": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21038,7 +20959,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$30": {
+        "$specify$25": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21069,7 +20990,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$31": {
+        "$specify$26": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21100,7 +21021,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$32": {
+        "$specify$27": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21131,7 +21052,7 @@
             "SRC": [ 6 ]
           }
         },
-        "$specify$33": {
+        "$specify$28": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21162,7 +21083,7 @@
             "SRC": [ 7 ]
           }
         },
-        "$specify$34": {
+        "$specify$29": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21193,7 +21114,7 @@
             "SRC": [ 8 ]
           }
         },
-        "$specify$35": {
+        "$specify$30": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21330,7 +21251,7 @@
         }
       },
       "cells": {
-        "$specify$36": {
+        "$specify$31": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21361,7 +21282,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$37": {
+        "$specify$32": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21392,7 +21313,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$38": {
+        "$specify$33": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21423,7 +21344,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$39": {
+        "$specify$34": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21454,7 +21375,7 @@
             "SRC": [ 6 ]
           }
         },
-        "$specify$40": {
+        "$specify$35": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21485,7 +21406,7 @@
             "SRC": [ 7 ]
           }
         },
-        "$specify$41": {
+        "$specify$36": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21516,7 +21437,7 @@
             "SRC": [ 8 ]
           }
         },
-        "$specify$42": {
+        "$specify$37": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21547,7 +21468,7 @@
             "SRC": [ 9 ]
           }
         },
-        "$specify$43": {
+        "$specify$38": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21645,2547 +21566,27 @@
         }
       }
     },
-    "led": {
+    "button": {
       "attributes": {
         "top": "00000000000000000000000000000001",
-        "src": "led.v:1.1-27.10"
+        "src": "button.v:1.1-11.10"
       },
       "ports": {
-        "sys_clk": {
+        "b": {
           "direction": "input",
           "bits": [ 2 ]
         },
-        "sys_rst_n": {
-          "direction": "input",
-          "bits": [ 3 ]
-        },
         "led": {
           "direction": "output",
-          "bits": [ 4, 5, 6 ]
+          "bits": [ 3 ]
+        },
+        "out": {
+          "direction": "output",
+          "bits": [ 4 ]
         }
       },
       "cells": {
-        "led_OBUF_O": {
-          "hide_name": 0,
-          "type": "OBUF",
-          "parameters": {
-          },
-          "attributes": {
-            "keep": "00000000000000000000000000000001"
-          },
-          "port_directions": {
-            "I": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I": [ 7 ],
-            "O": [ 6 ]
-          }
-        },
-        "led_OBUF_O_1": {
-          "hide_name": 0,
-          "type": "OBUF",
-          "parameters": {
-          },
-          "attributes": {
-            "keep": "00000000000000000000000000000001"
-          },
-          "port_directions": {
-            "I": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I": [ 8 ],
-            "O": [ 5 ]
-          }
-        },
-        "led_OBUF_O_2": {
-          "hide_name": 0,
-          "type": "OBUF",
-          "parameters": {
-          },
-          "attributes": {
-            "keep": "00000000000000000000000000000001"
-          },
-          "port_directions": {
-            "I": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I": [ 9 ],
-            "O": [ 4 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q": {
-          "hide_name": 0,
-          "type": "DFFCE",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:18.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:115.8-115.68"
-          },
-          "port_directions": {
-            "CE": "input",
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CE": [ 10 ],
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 7 ],
-            "Q": [ 9 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O": {
-          "hide_name": 0,
-          "type": "MUX2_LUT5",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:154.14-154.54"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "O": "output",
-            "S0": "input"
-          },
-          "connections": {
-            "I0": [ 13 ],
-            "I1": [ 14 ],
-            "O": [ 10 ],
-            "S0": [ 15 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_I0_LUT1_F": {
-          "hide_name": 0,
-          "type": "LUT1",
-          "parameters": {
-            "INIT": "00"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:152.41-152.66|/usr/local/bin/../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input"
-          },
-          "connections": {
-            "F": [ 13 ],
-            "I0": [ 16 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_I0_LUT1_F_I0_GND_G": {
-          "hide_name": 0,
-          "type": "GND",
-          "parameters": {
-          },
-          "attributes": {
-          },
-          "port_directions": {
-            "G": "output"
-          },
-          "connections": {
-            "G": [ 16 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_I1_LUT4_F": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "1000000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:153.41-153.66|/usr/local/bin/../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 14 ],
-            "I0": [ 17 ],
-            "I1": [ 18 ],
-            "I2": [ 19 ],
-            "I3": [ 20 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0000000000000001"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 17 ],
-            "I0": [ 21 ],
-            "I1": [ 22 ],
-            "I2": [ 23 ],
-            "I3": [ 24 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_1": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0000000000000001"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 18 ],
-            "I0": [ 25 ],
-            "I1": [ 26 ],
-            "I2": [ 27 ],
-            "I3": [ 28 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_1_I0_DFFC_Q": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 29 ],
-            "Q": [ 25 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_1_I0_DFFC_Q_1": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 30 ],
-            "Q": [ 26 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_1_I0_DFFC_Q_2": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 31 ],
-            "Q": [ 27 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_1_I0_DFFC_Q_3": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 32 ],
-            "Q": [ 28 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0100000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 19 ],
-            "I0": [ 33 ],
-            "I1": [ 34 ],
-            "I2": [ 35 ],
-            "I3": [ 36 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_ALU_I0": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 37 ],
-            "COUT": [ 38 ],
-            "I0": [ 35 ],
-            "I1": [ 39 ],
-            "I3": [ 16 ],
-            "SUM": [ 40 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_ALU_I0_1": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 41 ],
-            "COUT": [ 37 ],
-            "I0": [ 36 ],
-            "I1": [ 39 ],
-            "I3": [ 16 ],
-            "SUM": [ 42 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_ALU_I0_2": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 43 ],
-            "COUT": [ 44 ],
-            "I0": [ 33 ],
-            "I1": [ 16 ],
-            "I3": [ 16 ],
-            "SUM": [ 45 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_ALU_I0_3": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 38 ],
-            "COUT": [ 43 ],
-            "I0": [ 34 ],
-            "I1": [ 39 ],
-            "I3": [ 16 ],
-            "SUM": [ 46 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_DFFC_Q": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 47 ],
-            "Q": [ 33 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_DFFC_Q_1": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 48 ],
-            "Q": [ 34 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_DFFC_Q_2": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 49 ],
-            "Q": [ 35 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_DFFC_Q_3": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 50 ],
-            "Q": [ 36 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0010000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 20 ],
-            "I0": [ 51 ],
-            "I1": [ 52 ],
-            "I2": [ 53 ],
-            "I3": [ 54 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_ALU_I0": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 55 ],
-            "COUT": [ 56 ],
-            "I0": [ 51 ],
-            "I1": [ 39 ],
-            "I3": [ 16 ],
-            "SUM": [ 57 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_ALU_I0_1": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 58 ],
-            "COUT": [ 55 ],
-            "I0": [ 52 ],
-            "I1": [ 16 ],
-            "I3": [ 16 ],
-            "SUM": [ 59 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_ALU_I0_2": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 60 ],
-            "COUT": [ 58 ],
-            "I0": [ 53 ],
-            "I1": [ 39 ],
-            "I3": [ 16 ],
-            "SUM": [ 61 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_ALU_I0_3": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 44 ],
-            "COUT": [ 60 ],
-            "I0": [ 54 ],
-            "I1": [ 39 ],
-            "I3": [ 16 ],
-            "SUM": [ 62 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_DFFC_Q": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 63 ],
-            "Q": [ 51 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_DFFC_Q_1": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 64 ],
-            "Q": [ 52 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_DFFC_Q_2": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 65 ],
-            "Q": [ 53 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_DFFC_Q_3": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 66 ],
-            "Q": [ 54 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I0_DFFC_Q": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 67 ],
-            "Q": [ 21 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I0_DFFC_Q_1": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 68 ],
-            "Q": [ 22 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I0_DFFC_Q_2": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 69 ],
-            "Q": [ 23 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_ALU_I1": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 16 ],
-            "COUT": [ 70 ],
-            "I0": [ 39 ],
-            "I1": [ 24 ],
-            "I3": [ 39 ],
-            "SUM": [ 71 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_ALU_I1_COUT_ALU_CIN": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 70 ],
-            "COUT": [ 72 ],
-            "I0": [ 16 ],
-            "I1": [ 23 ],
-            "I3": [ 39 ],
-            "SUM": [ 73 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_ALU_I1_I0_VCC_V": {
-          "hide_name": 0,
-          "type": "VCC",
-          "parameters": {
-          },
-          "attributes": {
-          },
-          "port_directions": {
-            "V": "output"
-          },
-          "connections": {
-            "V": [ 39 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_DFFC_Q": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 74 ],
-            "Q": [ 24 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0001"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 74 ],
-            "I0": [ 24 ],
-            "I1": [ 56 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 75 ],
-            "I0": [ 56 ],
-            "I1": [ 76 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_1": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 77 ],
-            "I0": [ 56 ],
-            "I1": [ 78 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_10": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 65 ],
-            "I0": [ 56 ],
-            "I1": [ 79 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_10_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 80 ],
-            "COUT": [ 81 ],
-            "I0": [ 16 ],
-            "I1": [ 53 ],
-            "I3": [ 39 ],
-            "SUM": [ 79 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_11": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 66 ],
-            "I0": [ 56 ],
-            "I1": [ 82 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_11_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 83 ],
-            "COUT": [ 80 ],
-            "I0": [ 16 ],
-            "I1": [ 54 ],
-            "I3": [ 39 ],
-            "SUM": [ 82 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_12": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 69 ],
-            "I0": [ 73 ],
-            "I1": [ 56 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_13": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 47 ],
-            "I0": [ 56 ],
-            "I1": [ 84 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_13_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 85 ],
-            "COUT": [ 83 ],
-            "I0": [ 16 ],
-            "I1": [ 33 ],
-            "I3": [ 39 ],
-            "SUM": [ 84 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_14": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 48 ],
-            "I0": [ 56 ],
-            "I1": [ 86 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_14_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 87 ],
-            "COUT": [ 85 ],
-            "I0": [ 16 ],
-            "I1": [ 34 ],
-            "I3": [ 39 ],
-            "SUM": [ 86 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_15": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 49 ],
-            "I0": [ 56 ],
-            "I1": [ 88 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_15_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 89 ],
-            "COUT": [ 87 ],
-            "I0": [ 16 ],
-            "I1": [ 35 ],
-            "I3": [ 39 ],
-            "SUM": [ 88 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_16": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 50 ],
-            "I0": [ 56 ],
-            "I1": [ 90 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_16_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 91 ],
-            "COUT": [ 89 ],
-            "I0": [ 16 ],
-            "I1": [ 36 ],
-            "I3": [ 39 ],
-            "SUM": [ 90 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_17": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 92 ],
-            "I0": [ 56 ],
-            "I1": [ 93 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_17_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 94 ],
-            "COUT": [ 91 ],
-            "I0": [ 16 ],
-            "I1": [ 95 ],
-            "I3": [ 39 ],
-            "SUM": [ 93 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_18": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 96 ],
-            "I0": [ 56 ],
-            "I1": [ 97 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_18_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 98 ],
-            "COUT": [ 94 ],
-            "I0": [ 16 ],
-            "I1": [ 99 ],
-            "I3": [ 39 ],
-            "SUM": [ 97 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_19": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 100 ],
-            "I0": [ 56 ],
-            "I1": [ 101 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_19_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 102 ],
-            "COUT": [ 98 ],
-            "I0": [ 16 ],
-            "I1": [ 103 ],
-            "I3": [ 39 ],
-            "SUM": [ 101 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_1_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 104 ],
-            "COUT": [ 105 ],
-            "I0": [ 16 ],
-            "I1": [ 106 ],
-            "I3": [ 39 ],
-            "SUM": [ 78 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_2": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 29 ],
-            "I0": [ 56 ],
-            "I1": [ 107 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_20": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 108 ],
-            "I0": [ 56 ],
-            "I1": [ 109 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_20_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 110 ],
-            "COUT": [ 102 ],
-            "I0": [ 16 ],
-            "I1": [ 111 ],
-            "I3": [ 39 ],
-            "SUM": [ 109 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_21": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 112 ],
-            "I0": [ 56 ],
-            "I1": [ 113 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_21_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 114 ],
-            "COUT": [ 110 ],
-            "I0": [ 16 ],
-            "I1": [ 115 ],
-            "I3": [ 39 ],
-            "SUM": [ 113 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_22": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 116 ],
-            "I0": [ 56 ],
-            "I1": [ 117 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_22_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 118 ],
-            "COUT": [ 114 ],
-            "I0": [ 16 ],
-            "I1": [ 119 ],
-            "I3": [ 39 ],
-            "SUM": [ 117 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_2_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 120 ],
-            "COUT": [ 104 ],
-            "I0": [ 16 ],
-            "I1": [ 25 ],
-            "I3": [ 39 ],
-            "SUM": [ 107 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_3": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 30 ],
-            "I0": [ 56 ],
-            "I1": [ 121 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_3_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 122 ],
-            "COUT": [ 120 ],
-            "I0": [ 16 ],
-            "I1": [ 26 ],
-            "I3": [ 39 ],
-            "SUM": [ 121 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_4": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 31 ],
-            "I0": [ 56 ],
-            "I1": [ 123 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_4_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 124 ],
-            "COUT": [ 122 ],
-            "I0": [ 16 ],
-            "I1": [ 27 ],
-            "I3": [ 39 ],
-            "SUM": [ 123 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_5": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 32 ],
-            "I0": [ 125 ],
-            "I1": [ 56 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_5_I0_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 126 ],
-            "COUT": [ 124 ],
-            "I0": [ 16 ],
-            "I1": [ 28 ],
-            "I3": [ 39 ],
-            "SUM": [ 125 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_6": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 67 ],
-            "I0": [ 127 ],
-            "I1": [ 56 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_6_I0_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 128 ],
-            "COUT": [ 126 ],
-            "I0": [ 16 ],
-            "I1": [ 21 ],
-            "I3": [ 39 ],
-            "SUM": [ 127 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_7": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 68 ],
-            "I0": [ 129 ],
-            "I1": [ 56 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_7_I0_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 72 ],
-            "COUT": [ 128 ],
-            "I0": [ 16 ],
-            "I1": [ 22 ],
-            "I3": [ 39 ],
-            "SUM": [ 129 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_8": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 63 ],
-            "I0": [ 56 ],
-            "I1": [ 130 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_8_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 131 ],
-            "COUT": [ 132 ],
-            "I0": [ 16 ],
-            "I1": [ 51 ],
-            "I3": [ 39 ],
-            "SUM": [ 130 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_9": {
-          "hide_name": 0,
-          "type": "LUT2",
-          "parameters": {
-            "INIT": "0100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:139.23-140.26"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "F": [ 64 ],
-            "I0": [ 56 ],
-            "I1": [ 133 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_9_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 81 ],
-            "COUT": [ 131 ],
-            "I0": [ 16 ],
-            "I1": [ 52 ],
-            "I3": [ 39 ],
-            "SUM": [ 133 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 105 ],
-            "COUT": [ 118 ],
-            "I0": [ 16 ],
-            "I1": [ 134 ],
-            "I3": [ 39 ],
-            "SUM": [ 76 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_ALU_I0": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 135 ],
-            "COUT": [ 136 ],
-            "I0": [ 115 ],
-            "I1": [ 39 ],
-            "I3": [ 16 ],
-            "SUM": [ 137 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_ALU_I0_1": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 138 ],
-            "COUT": [ 135 ],
-            "I0": [ 119 ],
-            "I1": [ 16 ],
-            "I3": [ 16 ],
-            "SUM": [ 139 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_ALU_I0_2": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 140 ],
-            "COUT": [ 138 ],
-            "I0": [ 134 ],
-            "I1": [ 39 ],
-            "I3": [ 16 ],
-            "SUM": [ 141 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_ALU_I0_3": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 39 ],
-            "COUT": [ 140 ],
-            "I0": [ 106 ],
-            "I1": [ 39 ],
-            "I3": [ 16 ],
-            "SUM": [ 142 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_DFFC_Q": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 112 ],
-            "Q": [ 115 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_DFFC_Q_1": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 116 ],
-            "Q": [ 119 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_DFFC_Q_2": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 75 ],
-            "Q": [ 134 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_DFFC_Q_3": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 77 ],
-            "Q": [ 106 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O": {
-          "hide_name": 0,
-          "type": "MUX2_LUT5",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:154.14-154.54"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "O": "output",
-            "S0": "input"
-          },
-          "connections": {
-            "I0": [ 143 ],
-            "I1": [ 144 ],
-            "O": [ 15 ],
-            "S0": [ 145 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_I0_LUT1_F": {
-          "hide_name": 0,
-          "type": "LUT1",
-          "parameters": {
-            "INIT": "00"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:152.41-152.66|/usr/local/bin/../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input"
-          },
-          "connections": {
-            "F": [ 143 ],
-            "I0": [ 16 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_I1_LUT4_F": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0000000100000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:153.41-153.66|/usr/local/bin/../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 144 ],
-            "I0": [ 95 ],
-            "I1": [ 99 ],
-            "I2": [ 103 ],
-            "I3": [ 111 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_ALU_I0": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 146 ],
-            "COUT": [ 41 ],
-            "I0": [ 95 ],
-            "I1": [ 16 ],
-            "I3": [ 16 ],
-            "SUM": [ 147 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_ALU_I0_1": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 148 ],
-            "COUT": [ 146 ],
-            "I0": [ 99 ],
-            "I1": [ 16 ],
-            "I3": [ 16 ],
-            "SUM": [ 149 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_ALU_I0_2": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 150 ],
-            "COUT": [ 148 ],
-            "I0": [ 103 ],
-            "I1": [ 16 ],
-            "I3": [ 16 ],
-            "SUM": [ 151 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_ALU_I0_3": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 136 ],
-            "COUT": [ 150 ],
-            "I0": [ 111 ],
-            "I1": [ 39 ],
-            "I3": [ 16 ],
-            "SUM": [ 152 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_DFFC_Q": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 92 ],
-            "Q": [ 95 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_DFFC_Q_1": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 96 ],
-            "Q": [ 99 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_DFFC_Q_2": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 100 ],
-            "Q": [ 103 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_DFFC_Q_3": {
-          "hide_name": 0,
-          "type": "DFFC",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:9.1-16.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:91.7-91.59"
-          },
-          "port_directions": {
-            "CLEAR": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLEAR": [ 11 ],
-            "CLK": [ 12 ],
-            "D": [ 108 ],
-            "Q": [ 111 ]
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_LUT4_F": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0010000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 145 ],
-            "I0": [ 115 ],
-            "I1": [ 119 ],
-            "I2": [ 134 ],
-            "I3": [ 106 ]
-          }
-        },
-        "led_OBUF_O_I_DFFPE_Q": {
-          "hide_name": 0,
-          "type": "DFFPE",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:18.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:103.8-103.69"
-          },
-          "port_directions": {
-            "CE": "input",
-            "CLK": "input",
-            "D": "input",
-            "PRESET": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CE": [ 10 ],
-            "CLK": [ 12 ],
-            "D": [ 8 ],
-            "PRESET": [ 11 ],
-            "Q": [ 7 ]
-          }
-        },
-        "led_OBUF_O_I_DFFPE_Q_1": {
-          "hide_name": 0,
-          "type": "DFFPE",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "led.v:18.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:103.8-103.69"
-          },
-          "port_directions": {
-            "CE": "input",
-            "CLK": "input",
-            "D": "input",
-            "PRESET": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CE": [ 10 ],
-            "CLK": [ 12 ],
-            "D": [ 9 ],
-            "PRESET": [ 11 ],
-            "Q": [ 8 ]
-          }
-        },
-        "sys_clk_IBUF_I": {
+        "b_IBUF_I": {
           "hide_name": 0,
           "type": "IBUF",
           "parameters": {
@@ -24199,27 +21600,10 @@
           },
           "connections": {
             "I": [ 2 ],
-            "O": [ 12 ]
+            "O": [ 5 ]
           }
         },
-        "sys_rst_n_IBUF_I": {
-          "hide_name": 0,
-          "type": "IBUF",
-          "parameters": {
-          },
-          "attributes": {
-            "keep": "00000000000000000000000000000001"
-          },
-          "port_directions": {
-            "I": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I": [ 3 ],
-            "O": [ 153 ]
-          }
-        },
-        "sys_rst_n_IBUF_I_O_LUT1_I0": {
+        "b_IBUF_I_O_LUT1_I0": {
           "hide_name": 0,
           "type": "LUT1",
           "parameters": {
@@ -24234,799 +21618,79 @@
             "I0": "input"
           },
           "connections": {
-            "F": [ 11 ],
-            "I0": [ 153 ]
+            "F": [ 6 ],
+            "I0": [ 5 ]
+          }
+        },
+        "led_OBUF_O": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "keep": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I": [ 6 ],
+            "O": [ 3 ]
+          }
+        },
+        "out_OBUF_O": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "keep": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I": [ 6 ],
+            "O": [ 4 ]
           }
         }
       },
       "netnames": {
+        "b": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "button.v:2.11-2.12"
+          }
+        },
+        "b_IBUF_I_O": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
+          }
+        },
         "led": {
           "hide_name": 0,
-          "bits": [ 4, 5, 6 ],
+          "bits": [ 3 ],
           "attributes": {
-            "src": "led.v:4.22-4.25"
+            "src": "button.v:3.17-3.20"
           }
         },
         "led_OBUF_O_I": {
           "hide_name": 0,
-          "bits": [ 9, 8, 7 ],
+          "bits": [ 6 ],
           "attributes": {
           }
         },
-        "led_OBUF_O_I_DFFCE_Q_CE": {
+        "out": {
           "hide_name": 0,
-          "bits": [ 10 ],
+          "bits": [ 4 ],
           "attributes": {
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_I0": {
-          "hide_name": 0,
-          "bits": [ 13 ],
-          "attributes": {
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:151.9-151.11"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_I0_LUT1_F_I0": {
-          "hide_name": 0,
-          "bits": [ 16 ],
-          "attributes": {
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:131.9-131.10"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_I1": {
-          "hide_name": 0,
-          "bits": [ 14 ],
-          "attributes": {
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:151.13-151.15"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0": {
-          "hide_name": 0,
-          "bits": [ 17, 18, 19, 20, 15 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_1_I0": {
-          "hide_name": 0,
-          "bits": [ 25, 26, 27, 28 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0": {
-          "hide_name": 0,
-          "bits": [ 33, 34, 35, 36 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_ALU_I0_1_COUT": {
-          "hide_name": 0,
-          "bits": [ 37 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_ALU_I0_1_SUM": {
-          "hide_name": 0,
-          "bits": [ 42 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_ALU_I0_2_COUT": {
-          "hide_name": 0,
-          "bits": [ 44 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_ALU_I0_2_SUM": {
-          "hide_name": 0,
-          "bits": [ 45 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_ALU_I0_3_COUT": {
-          "hide_name": 0,
-          "bits": [ 43 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_ALU_I0_3_SUM": {
-          "hide_name": 0,
-          "bits": [ 46 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_ALU_I0_COUT": {
-          "hide_name": 0,
-          "bits": [ 38 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_2_I0_ALU_I0_SUM": {
-          "hide_name": 0,
-          "bits": [ 40 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0": {
-          "hide_name": 0,
-          "bits": [ 51, 52, 53, 54 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_ALU_I0_1_COUT": {
-          "hide_name": 0,
-          "bits": [ 55 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_ALU_I0_1_SUM": {
-          "hide_name": 0,
-          "bits": [ 59 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_ALU_I0_2_COUT": {
-          "hide_name": 0,
-          "bits": [ 58 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_ALU_I0_2_SUM": {
-          "hide_name": 0,
-          "bits": [ 61 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_ALU_I0_3_COUT": {
-          "hide_name": 0,
-          "bits": [ 60 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_ALU_I0_3_SUM": {
-          "hide_name": 0,
-          "bits": [ 62 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_3_I0_ALU_I0_SUM": {
-          "hide_name": 0,
-          "bits": [ 57 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I0": {
-          "hide_name": 0,
-          "bits": [ 21, 22, 23, 24 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3": {
-          "hide_name": 0,
-          "bits": [ 24, 56 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_ALU_I1_COUT": {
-          "hide_name": 0,
-          "bits": [ 70 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_ALU_I1_COUT_ALU_CIN_COUT": {
-          "hide_name": 0,
-          "bits": [ 72 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_ALU_I1_I0": {
-          "hide_name": 0,
-          "bits": [ 39 ],
-          "attributes": {
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_ALU_I1_SUM": {
-          "hide_name": 0,
-          "bits": [ 71 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F": {
-          "hide_name": 0,
-          "bits": [ 74, 69, 68, 67, 32, 31, 30, 29, 77, 75, 116, 112, 108, 100, 96, 92, 50, 49, 48, 47, 66, 65, 64, 63 ],
-          "attributes": {
-            "src": "led.v:9.1-16.4"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_10_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 79 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_10_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 81 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_11_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 82 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_11_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 80 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_12_I0": {
-          "hide_name": 0,
-          "bits": [ 73, 56 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_13_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 84 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_13_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 83 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_14_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 86 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_14_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 85 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_15_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 88 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_15_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 87 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_16_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 90 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_16_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 89 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_17_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 93 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_17_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 91 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_18_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 97 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_18_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 94 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_19_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 101 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_19_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 98 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_1_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 78 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_1_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 105 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_20_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 109 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_20_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 102 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_21_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 113 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_21_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 110 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_22_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 117 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_22_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 114 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_2_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 107 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_2_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 104 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_3_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 121 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_3_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 120 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_4_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 123 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_4_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 122 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_5_I0": {
-          "hide_name": 0,
-          "bits": [ 125, 56 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_5_I0_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 124 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_6_I0": {
-          "hide_name": 0,
-          "bits": [ 127, 56 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_6_I0_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 126 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_7_I0": {
-          "hide_name": 0,
-          "bits": [ 129, 56 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_7_I0_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 128 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_8_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 130 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_8_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 132 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29",
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_9_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 133 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_9_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 131 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1": {
-          "hide_name": 0,
-          "bits": [ 56, 76 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 118 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:13.20-13.31|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1": {
-          "hide_name": 0,
-          "bits": [ 115, 119, 134, 106 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_ALU_I0_1_COUT": {
-          "hide_name": 0,
-          "bits": [ 135 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_ALU_I0_1_SUM": {
-          "hide_name": 0,
-          "bits": [ 139 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_ALU_I0_2_COUT": {
-          "hide_name": 0,
-          "bits": [ 138 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_ALU_I0_2_SUM": {
-          "hide_name": 0,
-          "bits": [ 141 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_ALU_I0_3_COUT": {
-          "hide_name": 0,
-          "bits": [ 140 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_ALU_I0_3_SUM": {
-          "hide_name": 0,
-          "bits": [ 142 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_ALU_I0_COUT": {
-          "hide_name": 0,
-          "bits": [ 136 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_F_LUT2_F_I1_ALU_SUM_I1_ALU_I0_SUM": {
-          "hide_name": 0,
-          "bits": [ 137 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_LUT4_F_I3_LUT2_I0_I1": {
-          "hide_name": 0,
-          "bits": [ 56 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_I0": {
-          "hide_name": 0,
-          "bits": [ 143 ],
-          "attributes": {
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:151.9-151.11"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_I1": {
-          "hide_name": 0,
-          "bits": [ 144 ],
-          "attributes": {
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:151.13-151.15"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0": {
-          "hide_name": 0,
-          "bits": [ 95, 99, 103, 111, 145 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_ALU_I0_1_COUT": {
-          "hide_name": 0,
-          "bits": [ 146 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_ALU_I0_1_SUM": {
-          "hide_name": 0,
-          "bits": [ 149 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_ALU_I0_2_COUT": {
-          "hide_name": 0,
-          "bits": [ 148 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_ALU_I0_2_SUM": {
-          "hide_name": 0,
-          "bits": [ 151 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_ALU_I0_3_COUT": {
-          "hide_name": 0,
-          "bits": [ 150 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_ALU_I0_3_SUM": {
-          "hide_name": 0,
-          "bits": [ 152 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_ALU_I0_COUT": {
-          "hide_name": 0,
-          "bits": [ 41 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "led.v:12.14-12.37|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:886.25-886.29"
-          }
-        },
-        "led_OBUF_O_I_DFFCE_Q_CE_MUX2_LUT5_O_S0_MUX2_LUT5_O_S0_ALU_I0_SUM": {
-          "hide_name": 0,
-          "bits": [ 147 ],
-          "attributes": {
-            "unused_bits": "0 "
-          }
-        },
-        "sys_clk": {
-          "hide_name": 0,
-          "bits": [ 2 ],
-          "attributes": {
-            "src": "led.v:2.11-2.18"
-          }
-        },
-        "sys_clk_IBUF_I_O": {
-          "hide_name": 0,
-          "bits": [ 12 ],
-          "attributes": {
-          }
-        },
-        "sys_rst_n": {
-          "hide_name": 0,
-          "bits": [ 3 ],
-          "attributes": {
-            "src": "led.v:3.11-3.20"
-          }
-        },
-        "sys_rst_n_IBUF_I_O": {
-          "hide_name": 0,
-          "bits": [ 153 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "sys_rst_n_IBUF_I_O_LUT1_I0_F": {
-          "hide_name": 0,
-          "bits": [ 11 ],
-          "attributes": {
+            "src": "button.v:4.17-4.20"
           }
         }
       }

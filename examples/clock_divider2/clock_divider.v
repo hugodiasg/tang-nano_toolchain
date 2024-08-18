@@ -8,26 +8,24 @@ module clock_divider
   output clk_out 
 );
   integer count; // counter
-  //reg [26:0] count; // counter
-  integer CONST = 258830; //258000 CONSTANT to multiply the 'scale'
+  integer CONST = 2; //258000 CONSTANT to multiply the 'scale'
   reg [31:0] true_scale; // the 'true' scale defined as 'scale * CONST'
   reg signal_clk_out; // register to save the clk_out and send it to this port
 
-  initial begin
-      signal_clk_out = 0;
-      count = 0;
-      signal_clk_out = 0;
-  end
-
+	// true_scale
   always @(posedge clk_in) begin 
     if (!nrst) begin
-      signal_clk_out <= 0;
-      count <= 0;
       true_scale <= scale * CONST; // update the true scale
+    end
+  end
+
+	// count
+  always @(posedge clk_in) begin 
+    if (!nrst) begin
+      count <= 0;
     end
     else begin
         if (count == (true_scale / 2 - 1)) begin
-          signal_clk_out <= ~signal_clk_out; // toggle the signal_clk_out when 'count == true_scale / 2 - 1'
           count <= 0;
         end else begin 
           count <= count + 1;
@@ -35,6 +33,18 @@ module clock_divider
     end 
   end
 
+	// update signal_clk_out
+  always @(posedge clk_in) begin 
+    if (!nrst) begin
+      signal_clk_out <= 0;
+    end
+    else begin
+        if (count == (true_scale / 2 - 1)) begin
+          signal_clk_out <= ~signal_clk_out; // toggle the signal_clk_out when 'count == true_scale / 2 - 1'
+        end
+    end 
+  end
+  
   assign clk_out = (true_scale == 0) ? clk_in : signal_clk_out; // if the true_scale is zero, the clk_in is buffered to the output
 
 endmodule
