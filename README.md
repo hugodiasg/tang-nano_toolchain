@@ -12,4 +12,4 @@ To run a project, create a directory inside `/examples` with the `.v` and `.cst`
 - to flash to tangnano: `../../util/flash.sh`
 
 # Note
-If you use some `input pin`, besides defining (in `.cst`) for example: `IO_LOC "in" 38`, you will need to add this line: `IO_PORT "in" IO_TYPE=LVCMOS33 PULL_MODE=NONE`.
+If you use some `input pin`, besides defining (in `.cst`) for example: `IO_LOC "in" 38`, you will need to add this line: `IO_PORT "in" IO_TYPE=LVCMOS33 PULL_MODE=NONE`. See the `clock_divider` example.
