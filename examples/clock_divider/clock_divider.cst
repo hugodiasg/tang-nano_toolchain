@@ -5,9 +5,9 @@
 //Part Number: GW1N-LV1QN48C6/I5
 //Created Time: Tue 10 15 11:23:18 2019
 
-//IO_LOC "clk_in" 13;
-//IO_PORT "clk_in"  IO_TYPE=LVCMOS33 PULL_MODE=NONE;
-IO_LOC "clk_in" 35; //internal Clock
+IO_LOC "clk_in" 13;
+IO_PORT "clk_in"  IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+//IO_LOC "clk_in" 35; //internal Clock
 
 IO_LOC "clk_out" 14;
 //IO_LOC "clk_out" 18; //led Red

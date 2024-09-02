@@ -1,0 +1,40 @@
+//Copyright (C)2014-2019 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: V1.9.2beta
+//Part Number: GW1N-LV1QN48C6/I5
+//Created Time: Tue 10 15 11:23:18 2019
+
+IO_LOC "clk" 13;
+IO_PORT "clk"  IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+//IO_LOC "clk" 35; //internal Clock
+
+IO_LOC "pwm" 14;
+//IO_LOC "clk_out" 18; //led Red
+
+IO_LOC "nrst" 15; // button A
+
+IO_LOC "threshold[7]" 45;
+IO_PORT "threshold[7]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "threshold[6]" 44;
+IO_PORT "threshold[6]"  IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "threshold[5]" 43;
+IO_PORT "threshold[5]"  IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "threshold[4]" 42;
+IO_PORT "threshold[4]"  IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "threshold[3]" 41;
+IO_PORT "threshold[3]"  IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "threshold[2]" 40;
+IO_PORT "threshold[2]"  IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "threshold[1]" 39;
+IO_PORT "threshold[1]"  IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "threshold[0]" 38;
+IO_PORT "threshold[0]"  IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
